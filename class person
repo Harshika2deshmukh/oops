@@ -1,0 +1,43 @@
+class Person
+
+{
+
+0
+
+String name;
+
+int age;
+
+}//class person
+
+class myprogramperson {
+
+public static void main(String[] args) {
+
+Person p1=new Person();
+
+//create object pl
+
+Person p2=new Person();
+
+//create object p2
+
+pl.name="modi";
+
+pl.age=71;
+
+p2.name="bachchan";
+
+//we acesses data
+
+p2.age=80;
+
+System.out.println("pl.name="+p1.name);
+
+System.out.println("p2.name="+p2.name);
+
+System.out.println("pl.age="+pl.age);
+
+System.out.println("p2.age="+p2.age);
+
+}//main(
