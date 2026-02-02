@@ -1,0 +1,30 @@
+class Cube{
+protected double 
+height,width,depth;
+Cube(){
+System.out.println("inside
+}
+double volume(){
+return height*width*depth;
+}
+
+}
+class CubeWeight extends Cube{
+double weigth;
+ CubeWeight(double h,double w,double d, double m)
+{
+System.out.println("inside Constructor:
+CUBEWEIGTH");
+height=h;
+width=w;
+depth=d;
+weigth=m;
+}}
+class CubeInherit{
+public static void main(String[] args) {
+CubeWeight cw1= new
+CubeWeight(10,10,10,20.5);
+ CubeWeight cw2= new CubeWeight(100,100,100,200.5); System.out.println("cw1.volume()="
++cw1.volume()); System.out.println("cw2.volume()="
++cw2.volume());
+}}
